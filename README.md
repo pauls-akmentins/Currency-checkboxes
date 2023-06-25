@@ -1,11 +1,7 @@
-### General info
+## About
 
-Project is sent without /node_modules, so do "npm i" before running
+Simple project with custom checkbox items for selecting/deselecting currencies
 
-### npm test
+## To run the project
 
-Runs tests
-
-### npm start
-
-Starts dev server
+In order to run the project, pull the repository and then remember to do "npm install" before starting the local server with "npm start"
