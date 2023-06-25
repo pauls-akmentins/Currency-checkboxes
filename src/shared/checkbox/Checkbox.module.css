@@ -1,0 +1,40 @@
+.checkboxContainer {
+  margin: 10px 5px;
+  display: flex;
+  background-color: #ececec;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid black;
+  flex-basis: 33.33%;
+  max-width: 26%;
+}
+
+.checkboxContainer:hover {
+  background-color: #d8d8d8;
+}
+
+.checkedContainer {
+  background-color: white;
+}
+
+.checkedContainer:hover {
+  background-color: white;
+}
+
+.checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+  padding: 0 0 3px 3px;
+  color: red;
+}
+
+.checkboxContent {
+  font-size: 22px;
+  color: #06336f;
+  margin-top: 2px;
+}

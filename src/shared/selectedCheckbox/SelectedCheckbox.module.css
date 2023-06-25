@@ -1,0 +1,49 @@
+.outerContainer {
+  position: relative;
+  flex-basis: 33.33%;
+}
+
+.selectedCheckboxContainer {
+  margin: 10px 5px;
+  background-color: #ececec;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.nameContainer {
+  text-align: center;
+  font-size: 18px;
+}
+
+.removeButtonContainer {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  height: 18px;
+  width: 18px;
+  border-radius: 40%;
+}
+
+.innerButtonContainer {
+  background-color: black;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.innerButtonContainer:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}

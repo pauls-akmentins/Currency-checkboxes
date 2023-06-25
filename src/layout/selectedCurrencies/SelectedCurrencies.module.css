@@ -1,0 +1,6 @@
+.selectedCurrenciesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50px;
+  width: 100%;
+}
